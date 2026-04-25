@@ -1,0 +1,140 @@
+# AI-Based Fake News Detection System
+
+## Overview
+
+This project is a Machine Learning-based system that detects whether a news article is **REAL ✅ or FAKE ❌** using Natural Language Processing (NLP) techniques and classification algorithms.
+
+The system preprocesses text data, converts it into numerical features using TF-IDF, and applies multiple machine learning models to achieve accurate predictions.
+
+---
+
+## Features
+
+* Text preprocessing (cleaning, stopword removal)
+* TF-IDF feature extraction
+* Multiple ML models:
+
+  * Logistic Regression
+  * Random Forest
+  * Gradient Boosting
+* Performance evaluation:
+
+  * Accuracy
+  * Precision
+  * Recall
+  * F1-Score
+* ROC Curve visualization
+* Model comparison graphs
+* Model saving for future use
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Seaborn
+
+---
+
+## Project Structure
+
+```
+fake-news-detection/
+│
+├── fake_news_detection.py   # Main code
+├── fake_news_dataset.csv    # Dataset
+├── model.pkl                # Saved model
+├── tfidf.pkl                # Saved vectorizer
+├── README.md                # Project documentation
+```
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/fake-news-detection.git
+```
+
+2. Navigate to the folder:
+
+```
+cd fake-news-detection
+```
+
+3. Install dependencies:
+
+```
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+---
+
+## Usage
+
+Run the main file:
+
+```
+python fake_news_detection.py
+```
+
+The system will:
+
+* Train models
+* Evaluate performance
+* Display graphs
+* Save the best model
+
+---
+
+## Output
+
+* Accuracy comparison graph
+* ROC Curve
+* Classification report
+* Best model selection
+
+---
+
+## Machine Learning Models Used
+
+| Model               | Description                                    |
+| ------------------- | ---------------------------------------------- |
+| Logistic Regression | Simple and fast linear model                   |
+| Random Forest       | Ensemble model with multiple decision trees    |
+| Gradient Boosting   | Advanced boosting technique (Best Performance) |
+
+---
+
+## Results
+
+* Gradient Boosting performed best among all models
+* High accuracy and balanced precision-recall achieved
+
+---
+
+## Future Improvements
+
+* Add Deep Learning (LSTM, BERT)
+* Deploy as web application using Streamlit
+* Improve dataset quality
+* Add real-time news API integration
+
+---
+
+## Authors
+* Sahil (2211)
+* Sachin Kumar (2204)
+Chitkara University, Punjab, India
+
+
+
+
+## Acknowledgment
+This project uses open-source libraries and datasets for educational purposes.
